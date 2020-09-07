@@ -1,0 +1,18 @@
+on:
+    push:
+        branches:
+            - master
+name: Slack Notify Changes
+jobs:
+    slackNotification:
+        name: Slack Notification
+        runs-on: ubuntu-test
+        steps:
+            - uses: actions/checkout@v2
+            - name: Slack Notification
+              uses: rtCamp/action-slack-notify@master
+              env:
+                SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+                SLACK_CHANNEL: app-delivery
+                SLACK_MESSAGE: 'Please review on https://github.com/YOUR_PATH/YOUR_REPO_NAME/pull/${{ env.pull_number}}'
+                SLACK_USERNAME: 'GitHub Actions'
