@@ -1,7 +1,4 @@
-on:
-    push:
-        branches:
-            - master
+on: push
 name: Slack Notify Changes
 jobs:
     slackNotification:
@@ -14,5 +11,5 @@ jobs:
               env:
                 SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
                 SLACK_CHANNEL: app-delivery
-                SLACK_MESSAGE: 'Please review on https://github.com/YOUR_PATH/YOUR_REPO_NAME/pull/${{ env.pull_number}}'
+                SLACK_MESSAGE: 'Please review on https://github.com/rawvin/rawvin.github.io/pull/${{ env.pull_number}}'
                 SLACK_USERNAME: 'GitHub Actions'
