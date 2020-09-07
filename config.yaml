@@ -17,8 +17,8 @@ imaging:
   quality: 99
 
 params:
-  description: A method and approach to deliver cloud native applications.
-  homeMetaContent: A method and approach to deliver cloud native applications.
+  description: A collection of methods to deliver cloud native applications.
+  homeMetaContent: A collection of methods to deliver cloud native applications.
   footer: Made with [Hugo](https://gohugo.io/). Themed by [Cupper](https://github.com/zwbetz-gh/cupper-hugo-theme).
   # For more date formats see https://gohugo.io/functions/format/
   dateFormat: Jan 2, 2006
