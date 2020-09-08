@@ -16,3 +16,17 @@ jobs:
               uses: chabad360/hugo-gh-pages@master
               with:
                 githubToken: ${{ secrets.GITHUB_TOKEN }}
+            - name: "Failed Build Notify"
+              if: failure()
+              uses: rtCamp/action-slack-notify@master
+              env:
+                SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+                SLACK_CHANNEL: app-delivery
+                SLACK_TITLE: Failed Build
+                SLACK_COLOR: "danger"
+                SLACK_USERNAME: 'GitHub Actions'
+                SLACK_MESSAGE: |
+                  This Github Actions workflow failed build.
+
+                  Pull Request
+                  https://github.com/${{github.repository}}/pull/${{ steps.parameters.outputs.pr_number }}                             
