@@ -6,7 +6,7 @@ title: "Home"
 **Cloud Native Application Delivery**
 
 {{< figureCupper
-img="org-interaction-ex.png1" 
+img="org-interaction-ex.png" 
 caption="Team interaction flow" 
 command="Original" 
 >}}
