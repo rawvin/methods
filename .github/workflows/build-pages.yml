@@ -48,4 +48,4 @@ jobs:
                 SLACK_MESSAGE: |
                   This Github Actions workflow passed build.
 
-                  Added performance engineering section
+                  Added performance engineering section https://cloudnativemethods/perf-eng/

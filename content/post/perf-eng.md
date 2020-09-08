@@ -1,7 +1,7 @@
 ---
-title: "Performance Engineering"
+title: "Performance Engineering Trait"
 date: 2020-09-07T21:05:03-05:00
-tags: [Performance Engineering, Engineering Productivity]
+tags: [Performance Engineering, Engineering Productivity, Trait]
 ---
 
 ## Runtime performance optimization
