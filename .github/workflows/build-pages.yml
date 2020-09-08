@@ -42,7 +42,7 @@ jobs:
               env:
                 SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
                 SLACK_CHANNEL: app-delivery
-                SLACK_TITLE: Failed Build - ${{ github.event.pull_request.title }}
+                SLACK_TITLE: Build passed - ${{ github.event.pull_request.title }}
                 SLACK_COLOR: "good"
                 SLACK_USERNAME: 'GitHub Actions'
                 SLACK_MESSAGE: |
