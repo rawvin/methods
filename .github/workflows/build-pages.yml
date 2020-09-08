@@ -48,4 +48,4 @@ jobs:
                 SLACK_MESSAGE: |
                   This Github Actions workflow passed build.
 
-                  Added test engineering section https://rawvin.github.io/test-eng/
+                  add application delivery draft https://rawvin.github.io/app-delivery/

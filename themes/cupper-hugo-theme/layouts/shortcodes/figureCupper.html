@@ -3,7 +3,9 @@
 {{ $command := .Get "command" }}
 {{ $options := .Get "options" }}
 
+
 {{ $original := .Page.Resources.GetMatch (printf "*%s*" $img) }}
+
 {{ $new := "" }}
 
 {{ if eq $command "Fit" }}
