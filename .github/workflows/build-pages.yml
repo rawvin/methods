@@ -16,6 +16,11 @@ jobs:
               uses: chabad360/hugo-gh-pages@master
               with:
                 githubToken: ${{ secrets.GITHUB_TOKEN }}
+            - name: "parameters: set parameters"
+              id: parameters
+              run: |
+                PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
+                echo "::set-output name=pr_number::${PR_NUMBER}"                
             - name: "Failed Build Notify"
               if: failure()
               uses: rtCamp/action-slack-notify@master
