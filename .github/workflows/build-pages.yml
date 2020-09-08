@@ -34,4 +34,5 @@ jobs:
                   This Github Actions workflow failed build.
 
                   Pull Request
-                  ${{ github.event.pull_request.url }}
+                  ${{github.event.pull_request.url}}
+                  https://github.com/${{github.repository}}/pull/${GITHUB_REF}
