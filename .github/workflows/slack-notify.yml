@@ -3,7 +3,7 @@ name: Slack Notify Changes
 jobs:
     slackNotification:
         name: Slack Notification
-        runs-on: ubuntu-test
+        runs-on: ubuntu-latest
         steps:
             - uses: actions/checkout@v2
             - name: Slack Notification
@@ -11,5 +11,6 @@ jobs:
               env:
                 SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
                 SLACK_CHANNEL: app-delivery
+                SLACK_TITLE: Bot test
                 SLACK_MESSAGE: 'Please review on https://github.com/rawvin/rawvin.github.io/pull/${{ env.pull_number}}'
                 SLACK_USERNAME: 'GitHub Actions'
