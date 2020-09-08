@@ -21,7 +21,7 @@ jobs:
               run: |
                 PR_NUMBER=$(echo $GITHUB_REF | awk 'BEGIN { FS = "/" } ; { print $3 }')
                 echo "::set-output name=pr_number::${PR_NUMBER}"                
-            - name: "Failed Build Notify"
+            - name: Failed Build Notify
               if: failure()
               uses: rtCamp/action-slack-notify@v2.1.0
               env:
@@ -36,3 +36,16 @@ jobs:
                   Pull Request
                   ${{github.event.pull_request.url}}
                   https://github.com/${{github.repository}}/pull/${GITHUB_REF}
+            - name: Pass Build Notify
+              if: success()
+              uses: rtCamp/action-slack-notify@v2.1.0
+              env:
+                SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+                SLACK_CHANNEL: app-delivery
+                SLACK_TITLE: Failed Build - ${{ github.event.pull_request.title }}
+                SLACK_COLOR: "good"
+                SLACK_USERNAME: 'GitHub Actions'
+                SLACK_MESSAGE: |
+                  This Github Actions workflow passed build.
+
+                  Added performance engineering section
