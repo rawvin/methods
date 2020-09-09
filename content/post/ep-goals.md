@@ -4,7 +4,7 @@ date: 2020-09-07T21:23:58-05:00
 tags: [Goals, Engineering Productivity]
 ---
 
-* Connect all of the software delivery activities to measurable business outcomes
+* Connect all of the software delivery activities to **measurable** business outcomes
 
 * Empower application operators to deploy services, both stateless and stateful, **without human intervention**.
 
