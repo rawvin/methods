@@ -2,4 +2,9 @@
 Empower application operators to deploy services, both stateless and stateful, without human intervention.
 Enable a consistent way for services to describe events within event-driven architectures.
 Enable safe and optimized default behaviors for platform capabilities wherever possible.
-Provide a developer-centric PR based approach towards testing and test frameworks with fast feedback loops.</description></item><item><title>Platform Infrastructure Goals</title><link>https://rawvin.github.io/pi-goals/</link><pubDate>Sat, 05 Sep 2020 21:06:03 -0500</pubDate><guid>https://rawvin.github.io/pi-goals/</guid><description/></item></channel></rss>
+Provide a developer-centric PR based approach towards testing and test frameworks with fast feedback loops.</description></item><item><title>Platform Infrastructure Goals</title><link>https://rawvin.github.io/pi-goals/</link><pubDate>Mon, 07 Sep 2020 21:04:03 -0500</pubDate><guid>https://rawvin.github.io/pi-goals/</guid><description> Compute
+Network
+Storage
+Subnets
+Base Container Image builds
+Scanning Infrastructure</description></item></channel></rss>
