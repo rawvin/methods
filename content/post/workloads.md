@@ -1,6 +1,6 @@
 ---
 title: "Workloads"
-date: 2020-09-05T21:05:05-05:00
+date: 2020-09-07T21:23:19-05:00
 tags: [Workload]
 ---
 
@@ -15,4 +15,3 @@ Functions as in Function as a Service is an event driven model that allows execu
 ## VM
 
 A virtual machine is a workload that operates on top of a hypervisor and contains its own virtualized hardware stack comprising of network adapters, storage, RAM, CPU with applications, binaries, and libraries.
-

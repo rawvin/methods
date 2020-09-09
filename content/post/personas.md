@@ -1,6 +1,6 @@
 ---
 title: "Personas"
-date: 2020-09-07T21:23:59-05:00
+date: 2020-09-07T21:23:39-05:00
 tags: [Personas]
 ---
 
