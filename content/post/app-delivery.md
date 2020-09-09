@@ -17,13 +17,8 @@ tags: [Framework, Application Delivery]
 
 In order to achieve the above goals, the focus for the application delivery framework should be **flow** over siloed specializations. The [open source OAM spec](https://oam.dev/) will be used as the foundational building block on which the framework will be built upon.
 
+Operational capabilities referred to as Traits will fully leverage the cloud native ecosystem either by reusing existing capabilities or by creating lightweight shims around the capabilities allowing platform builders to strike a right balance between extensibility and abstraction.
 
-## Design
+## Design Principles
 
-* Allow application developers to bring their own workloads
-
-* Operational capabilities (e.g. deployment, traffic, load balancing, logging, fault tolerance) will be classified as Traits.
-
-* Traits will fully leverage the cloud native ecosystem either by reusing existing capabilities or by creating lightweight shims around the capabilities.
-
-* Platform builders can strike the right balance between extensibility and abstraction.
+{{< principles include="Be consistent, Be specific" descriptions="true" >}}

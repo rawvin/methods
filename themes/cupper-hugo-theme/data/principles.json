@@ -9,6 +9,7 @@
   ],
   "principles": [
     {
+      
       "title": "Provide comparable experience",
       "strapline": "Ensure your interface provides a comparable experience for all so people can accomplish tasks in a way that suits their needs without undermining the quality of the content.",
       "description": "Whether out of circumstance, choice, or context people are diverse. As people use different approaches and tools to read and operate interfaces, what the interface offers each user should be comparable in value, quality, and efficiency.",
@@ -48,8 +49,8 @@
     },
     {
       "title": "Be consistent",
-      "strapline": "Use familiar conventions and apply them consistently.",
-      "description": "Familiar interfaces borrow from well-established patterns. These should be used consistently within the interface to reinforce their meaning and purpose. This should be applied to functionality, behavior, editorial, and presentation. You should say the same things in the same way and users should be able to do the same things in the same way.",
+      "strapline": "In order to bring their own workloads, application developers should use familiar application types by selecting an appropriate supported Dockerfile to build an application.",
+      "description": "Familiar application types borrow from well-established patterns. You should say the same things in the same way and users should be able to do the same things in the same way.",
       "examples": [
         {
           "title": "Consistent design patterns",
@@ -64,6 +65,11 @@
           "description": "Use consistent page architecture across templates to help people scan and navigate key content."
         }
       ]
+    },
+    {
+      "title": "Be specific",
+      "strapline" : "Be specific when declaring operational capabilities (e.g. deployment, traffic, load balancing, logging, fault tolerance)",
+      "description" : ""
     },
     {
       "title": "Give control",
