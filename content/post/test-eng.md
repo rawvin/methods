@@ -6,7 +6,7 @@ tags: [Test Engineering, Engineering Productivity]
 
 ## Unit Testing
 
-* Provide frameworks to test small things like individual functions to verify they work correctly.
+* Provide frameworks to test individual units (e.g. functions) to verify that they work correctly.
 
 * Utility functions that are modular, relatively independent of other code should be verified to work by passing in user-defined inputs.
 
@@ -14,7 +14,7 @@ tags: [Test Engineering, Engineering Productivity]
 
 * Increase the depth and scope of tests to improve software quality.
 
-* Provide robust automation test frameworks to support execution of thousands of different complex test case scenarios.
+* Provide robust automation test frameworks to support execution of different complex test case scenarios.
 
 ## Tooling Landscape
 
