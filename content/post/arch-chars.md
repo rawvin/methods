@@ -1,6 +1,6 @@
 ---
 title: "Architectural Characteristics"
-date: 2020-09-07T21:22:59-05:00
+date: 2020-09-15T21:10:59-05:00
 tags: [Software Architecture, Evolutionary Architecture]
 ---
 {{< blockquote author="Neal Ford">}}
@@ -20,7 +20,7 @@ $$ Trait \subset Characteristic $$
 A key distinction is that a characteristic, also referred as non-functional requirement or quality attribute, is qualitative in nature and cannot be measured whereas a trait provides a class of attributes that can be measured using observability techniques and other response indicators.
 {{< /blockquote >}}
 
-Below are a few architectural characteristics referenced in the works of [Neal Ford](http://nealford.com/) et al. that are relevant to cloud native application architectures.
+Below are a few architectural characteristics referenced in the works of [Neal Ford](http://nealford.com/) et al. relevant to cloud native application architectures.
 
 ## Agility
 
@@ -38,19 +38,4 @@ Below are a few architectural characteristics referenced in the works of [Neal F
 
 ## Evolvability
 
-Evolvability is a meta-characteristic, an architectural wrapper that protects all the other architectural characteristics.
-
-
-## Performance
-
-
-## Scalability
-
-
-## Simplicity
-
-
-## Availability
-
-
-## Reliability
+- Evolvability is a meta-characteristic, an architectural wrapper that protects all the other architectural characteristics.
