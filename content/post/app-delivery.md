@@ -22,3 +22,4 @@ Operational capabilities referred to as Traits will fully leverage the cloud nat
 ## Design Principles
 
 {{< principles include="Be consistent, Be specific" descriptions="true" >}}
+

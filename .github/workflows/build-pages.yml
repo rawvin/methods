@@ -48,4 +48,4 @@ jobs:
                 SLACK_MESSAGE: |
                   This Github Actions workflow passed build.
 
-                  add application delivery flow diagram draft https://rawvin.github.io/app-delivery.png
+                  https://www.cloudnativemethods.com
