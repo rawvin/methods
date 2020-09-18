@@ -17,7 +17,7 @@ Within the context of software architecture, we could view a characteristic as a
 $$ Trait \subset Characteristic $$
 
 {{< blockquote >}}
-A key distinction is that a characteristic, also referred as non-functional requirement or quality attribute, is qualitative in nature and cannot be measured whereas a trait provides a class of attributes that can be measured using observability techniques and other response indicators.
+A characteristic, also referred to as _Non-Functional Requirement_ or quality attribute, is qualitative in nature. It can be difficult to come up with the right objective tests to measure a characteristic whereas a trait provides a class of attributes to measure how the system is currently used and whether it is meeting expectations using observability techniques and other response indicators.
 {{< /blockquote >}}
 
 Below are a few architectural characteristics referenced in the works of [Neal Ford](http://nealford.com/) et al. relevant to cloud native application architectures.
