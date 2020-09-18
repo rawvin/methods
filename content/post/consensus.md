@@ -10,7 +10,7 @@ Here I've listed two of the popular approaches to achieving consistency.
 
 ## Consensus (Raft)
 
-Raft is a leader-based consensus algorithm which guarantees strong consistency to the cluster. The consensus algorithm is divided into three parts - Leader election, Replication and Safety. Raft, compared to Paxos its predecessor, makes it easy to reason about the database in the single key context. Raft ensures that all operations are globally linearizable. The systems built using Raft as the base algorithm to attain agreement on ordering of events.
+Raft is a leader-based consensus algorithm which guarantees strong consistency to the cluster. The consensus algorithm is divided into three parts - Leader election, Replication and Safety. Raft, compared to Paxos its predecessor, makes it easy to reason about the database in the single key context. Raft ensures that all operations are globally linearizable.
 
 - Optimal when applied to - _Atomic transactions, Distributed messaging_
 - Who is using - _Consul, Etcd, CockroachDB, InfluxDB_
