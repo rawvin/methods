@@ -4,9 +4,9 @@ date: 2020-09-14T21:10:59-05:00
 tags: [Software Architecture, Evolutionary Architecture, OPA]
 ---
 
-- Provides an **objective** way to assess a desired architectural characteristic
-- Allows us to compare the software architecture before and after a change is introduced
-- Amplifies feedback loops by using metrics to guide future development
+- Provide an **objective** way to assess a desired architectural characteristic
+- Allow us to compare the software architecture before and after a change is introduced
+- Amplify feedback loops by using metrics to guide future development
 
 An example of fast feedback loop in which **pipelines can be modeled** to give developers feedback as quickly as possible.
 
